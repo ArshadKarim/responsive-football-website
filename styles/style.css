@@ -1,0 +1,244 @@
+/* .............................
+Fonts import from googlkr fonts
+............................. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* ........................
+ starting CSS
+.................... */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*................
+Starting css for Welcome part 
+...........................*/
+.container{
+    color: #FFFFFF;
+    height: 677px;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-color: #2D25A0;
+}
+.topnav{
+    display: grid;
+    grid-template-rows:repeat(1, 2fr);
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+    margin: 0px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+.nav-login{
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    float: right;
+    height: 44px;
+    width: 168px;
+    left: 156px;
+    top: 464px;
+    border-radius: 0px;
+    padding: 10px, 24px, 10px, 24px;
+}
+
+.welcome-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.welcome-article{
+   margin: 121px 102px 213px 156px;
+
+}
+.welcome-title{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 27px;
+}
+.button{
+    background-color: #E02C6D;
+    padding: 2%;
+    height: 30px;
+    width: 168px;
+    border-radius: 0px;
+}
+.button a{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: auto;
+}
+.welcome-banner img{
+    height: 438px;
+    width: 556px;
+    margin: 67px 141px 86px 0px;
+}
+/*................
+Starting css for Player part 
+...........................*/
+.top-players{
+    background-color: #FFFFFF;
+}
+.top-playergroup{
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-row-gap: 30px;
+    margin: 85px 210px 85px 195px;
+    justify-content: center;
+    height: 474px;
+    width: 1050px;
+    margin: 0px 210px 27px 180px;
+    border-radius: 0px;
+
+}
+.player{
+    height: 474px;
+    width: 330px;
+    border-radius: 0px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px 0px #00000026;
+}
+.player h3{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.player img{
+    height: 256px;
+    width: 300px;
+}
+.player p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/*................
+Starting css for Highlights part 
+...........................*/
+.highlights-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 165px 156px 158px 180px;
+}
+.hhighlights-description{
+    display: flex;
+    flex-direction: column;
+}
+.highlights-title{
+    height: 120px;
+    width: 469px;
+    border-radius: nullpx;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.highlights-blog{
+    height: 113px;
+    width: 404px;
+    left: 0px;
+    border-radius: nullpx;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1f1818
+;
+}
+.highlights-watch{
+    height: 24px;
+    width: 115px;
+    border-radius: nullpx;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+}
+
+.highlights-image{
+    height: 427px;
+    width: 567px;
+}
+/*................
+Starting css for Logo part 
+...........................*/
+.logo-icon img{
+    height: 110px;
+    width: 484px;
+}
+
+a{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    align-items: center;
+    }
+
+    /* ...................
+    Starting of Media Queries
+    ......................... */
+    /* Media queries for Mobile Devices */
+    /* @media only screen and (max-width:688px) {
+        .main{
+            width: 100%;
+        }
+        .welcome-grid{
+            grid-template-columns: repeat(1, 1fr);
+            align-items: none;
+        }
+       .highlights-part{
+            grid-template-columns: repeat(1, 1fr);
+            align-items: none;
+       }
+       .top-playergroup{
+            grid-template-columns: repeat(1, 1fr);
+            align-items: none;
+
+       }
+    } */
+
+    
