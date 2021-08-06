@@ -21,8 +21,8 @@ Starting css for Welcome part
     color: #FFFFFF;
     height: 677px;
     width: 1440px;
-    left: 0px;
-    top: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
     border-radius: 0px;
     background-color: #2D25A0;
 }
